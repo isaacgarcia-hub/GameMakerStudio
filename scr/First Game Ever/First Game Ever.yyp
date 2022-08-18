@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"s_player_idle","path":"sprites/s_player_idle/s_player_idle.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -7,7 +8,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 2,
   "isEcma": false,
   "configs": {
     "name": "Default",
