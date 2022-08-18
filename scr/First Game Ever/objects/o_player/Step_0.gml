@@ -8,9 +8,9 @@ script_execute(get_input);
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 22CFE209
-/// @DnDArgument : "script" "collision"
-/// @DnDSaveInfo : "script" "collision"
-script_execute(collision);
+/// @DnDArgument : "script" "h_collision"
+/// @DnDSaveInfo : "script" "h_collision"
+script_execute(h_collision);
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1

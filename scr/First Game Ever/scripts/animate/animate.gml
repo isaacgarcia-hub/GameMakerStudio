@@ -45,13 +45,4 @@ function animate()
 			facing = -1;
 		}
 	}
-
-	/// @DnDAction : YoYo Games.Common.Else
-	/// @DnDVersion : 1
-	/// @DnDHash : 180CC516
-	/// @DnDParent : 092EB17B
-	else
-	{
-	
-	}
 }
