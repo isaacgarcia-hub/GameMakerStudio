@@ -40,4 +40,21 @@ function get_input()
 		/// @DnDArgument : "var" "hsp"
 		hsp = -walk_sp;
 	}
+
+	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
+	/// @DnDVersion : 1
+	/// @DnDHash : 00ADAC40
+	/// @DnDParent : 5C6918C3
+	var l00ADAC40_0;
+	l00ADAC40_0 = keyboard_check_pressed(vk_space);
+	if (l00ADAC40_0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 57D162CD
+		/// @DnDParent : 00ADAC40
+		/// @DnDArgument : "expr" "jump_sp"
+		/// @DnDArgument : "var" "vsp"
+		vsp = jump_sp;
+	}
 }

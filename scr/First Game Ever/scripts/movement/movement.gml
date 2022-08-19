@@ -7,6 +7,15 @@ function movement()
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
+	/// @DnDHash : 14BCD723
+	/// @DnDParent : 2F10A476
+	/// @DnDArgument : "expr" "global.grav"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "vsp"
+	vsp += global.grav;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
 	/// @DnDHash : 2DAE1727
 	/// @DnDParent : 2F10A476
 	/// @DnDArgument : "expr" "hsp*drag"
