@@ -21,4 +21,21 @@ function movement()
 	/// @DnDArgument : "expr" "hsp*drag"
 	/// @DnDArgument : "var" "hsp"
 	hsp = hsp*drag;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 69A8B1F0
+	/// @DnDParent : 05739A9F
+	/// @DnDArgument : "var" "abs(hsp)"
+	/// @DnDArgument : "op" "1"
+	/// @DnDArgument : "value" "0.2"
+	if(abs(hsp) < 0.2)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 3DA2155C
+		/// @DnDParent : 69A8B1F0
+		/// @DnDArgument : "var" "hsp"
+		hsp = 0;
+	}
 }
