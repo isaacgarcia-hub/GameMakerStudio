@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"s_background","path":"sprites/s_background/s_background.yy",},"order":3,},
     {"id":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"order":5,},
     {"id":{"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},"order":1,},
     {"id":{"name":"input","path":"scripts/input/input.yy",},"order":4,},
